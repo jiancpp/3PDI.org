@@ -243,11 +243,12 @@
     }
 
     #get-involved #donate .content .reasons li {
-        font-size: 12px;
+        font-size: 10px;
+        margin-left: 3vw;
     }
 
     #get-involved #donate .content .reasons li span{
-        font-size: 18px;
+        font-size: 15px;
     }
 
     #get-involved #partner {
