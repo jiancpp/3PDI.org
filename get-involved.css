@@ -246,18 +246,14 @@
         font-size: 10px;
         margin-left: 3vw;
     }
-
-    #get-involved #donate .content .reasons li span{
-        font-size: 15px;
-    }
-
+    
     #get-involved #partner {
         width: 80%;
         height: auto;
         padding: 20px 80px;
     }
 
-    .partner-description {
+    #get-involved .header, #get-involved .subheader {
         text-align: center;
     }
 }
