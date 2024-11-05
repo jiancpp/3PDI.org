@@ -242,8 +242,12 @@
         padding: 20px 80px;
     }
 
-    #get-involved #donate .content .reasons li, #get-involved #donate .content .reasons li span {
-        font-size: smaller;
+    #get-involved #donate .content .reasons li {
+        font-size: 12px;
+    }
+
+    #get-involved #donate .content .reasons li span{
+        font-size: 18px;
     }
 
     #get-involved #partner {
