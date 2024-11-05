@@ -1,0 +1,188 @@
+/* -----------------------------------------------------------------------Media Query */
+
+
+
+/* -----------------------------------------------------------------------Formatting */
+#programs {
+    height: auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#programs h2 {
+    color: rgba(0, 151, 178, 0.5);
+}
+
+#programs h1, #programs h1 span {
+    font-family: 'Batangas', sans-serif;
+    font-size: 60px;
+    color: var(--blue);
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 30%);
+
+}
+
+#programs h1 .yellow {
+    color: var(--yellow);
+}
+
+#programs h1 .orange {
+    color: var(--orange);
+}
+
+#programs h1 .red {
+    color: var(--red);
+}
+
+#programs .container {
+    margin-top: 50px;
+}
+
+#programs .container .one {
+    background-image: url("images/program-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
+
+#programs .container .two {
+    background-image: url("images/program-2.jpg");
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
+
+#programs .container .three {
+    background-image: url("images/program-3.jpg");
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
+
+#programs .container .program-tile {
+    margin: 0 15px 0 15px;
+    width: 25%;
+    height: 300px;  
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: grey;
+    box-shadow: 0 5px 15px 5px rgba(0, 0, 0, 30%);
+    transition: 0.5s;
+}
+
+#programs .container .program-tile span {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+    padding: 10px;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+    background-color: var(--blue);
+    text-align: left;
+    transition: 0.5s;
+}
+
+#programs .details {
+    height: 70%;
+    overflow-y: hidden;
+}
+
+#programs .details p{
+    visibility: hidden;
+    position: relative;
+}
+
+#programs .details p:after{
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    color: rgba(255, 255, 255, 0.1);
+    transition: 0.8s;
+    margin: 10px 10px 0 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#programs .container .one span .program-one p:after {
+    content: "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)";
+}
+
+#programs .container .one:hover .program-one p:after {
+    transform: translateY(0%);
+    color: rgba(255, 255, 255, 1);
+}
+
+#programs .container .two span .program-two p:after {
+    content: "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)";
+}
+
+#programs .container .two:hover .program-two p:after {
+    transform: translateY(0%);
+    color: rgba(255, 255, 255, 1);
+}
+
+#programs .container .three span .program-three p:after {
+    content: "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)";
+}
+
+#programs .container .three:hover .program-three p:after {
+    transform: translateY(0%);
+    color: rgba(255, 255, 255, 1);
+}
+
+#programs .container .program-tile:hover span{
+    height: 200px;
+}
+
+#programs .container .program-tile:hover{
+    background-size: 500px;
+    width: 35%;
+}
+
+#programs .container .program-tile span a {
+    text-decoration: none;
+}
+
+#programs .container .program-tile span h1 {
+    color: white;
+    font-size: 20px;
+}
+
+#programs .container .program-tile span p {
+    color: white;
+}
+
+#programs .container .program-tile span .button {
+    width: auto;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--blue);
+    transition: 0.3s;
+}
+
+#programs .container .program-tile span .button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+@media only screen and (max-width: 650px) {
+    #programs .container {
+        flex-direction: column;
+    }
+
+    #programs .container .program-tile { 
+        width: 60%;
+        margin-top: 20px;
+    }
+
+    #programs .container .program-tile:hover{
+        background-size: 500px;
+        width: 70%;
+    }
+}
