@@ -249,12 +249,15 @@
 
     #get-involved #donate .content .reasons li span{
         font-size: 15px;
-        visibility: hidden;
     }
 
     #get-involved #partner {
         width: 80%;
         height: auto;
         padding: 20px 80px;
+    }
+
+    .partner-description {
+        text-align: center;
     }
 }
