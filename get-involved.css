@@ -249,6 +249,7 @@
 
     #get-involved #donate .content .reasons li span{
         font-size: 15px;
+        visibility: hidden;
     }
 
     #get-involved #partner {
