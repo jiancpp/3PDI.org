@@ -244,7 +244,12 @@
 
     #get-involved #donate .content .reasons li {
         font-size: 10px;
-        margin-left: 3vw;
+        margin-left: 8vw;
+    }
+
+    #get-involved #donate .content .reasons span {
+        font-size: 15px;
+        margin-left: 8vw;
     }
     
     #get-involved #partner {
