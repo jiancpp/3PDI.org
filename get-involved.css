@@ -242,6 +242,10 @@
         padding: 20px 80px;
     }
 
+    #get-involved #donate .content .reasons li, #get-involved #donate .content .reasons li span {
+        font-size: smaller;
+    }
+
     #get-involved #partner {
         width: 80%;
         height: auto;
