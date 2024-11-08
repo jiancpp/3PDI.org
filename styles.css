@@ -9,7 +9,13 @@
 
 @font-face {
     font-family: 'Batangas';
-    src: local('Batangas'), url("batangas-font-family-fontmirror/Batangas\ Bold\ 700.otf") format(opentype);
+    src: url("batangas-font-family-fontmirror/Batangas\ Bold\ 700.otf");
+    src: local('Batangas'), 
+        url("batangas-font-family-fontmirror/Batangas\ Bold\ 700.otf?#iefix") format(opentype);
+        url("batangas-font-family-fontmirror/Batangas\ Bold\ 700.woff2") format('woff2'), /* Super Modern Browsers */
+        url("batangas-font-family-fontmirror/Batangas\ Bold\ 700.woff") format('woff'), /* Modern Browsers */
+        url("batangas-font-family-fontmirror/Batangas\ Bold\ 700.ttf") format('truetype'), /* Safari, Android, iOS */
+        url("batangas-font-family-fontmirror/Batangas\ Bold\ 700.svg#Batangas") format('svg'); /* Legacy iOS */
 }
 
 * {
