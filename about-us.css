@@ -132,7 +132,7 @@
 }
 
 #programs .container .program-tile:hover span{
-    height: 200px;
+    height: 250px;
 }
 
 #programs .container .program-tile:hover{
@@ -144,13 +144,16 @@
     text-decoration: none;
 }
 
-#programs .container .program-tile span h1 {
+#programs .container .program-tile span h2 {
+    font-family: 'Batangas', sans-serif;
     color: white;
     font-size: 20px;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 30%);
 }
 
 #programs .container .program-tile span p {
     color: white;
+    height: 30px;
 }
 
 #programs .container .program-tile span .button {
@@ -170,6 +173,16 @@
     background-color: rgba(255, 255, 255, 0.8);
 }
 
+@media only screen and (max-width: 1000px) {
+    #programs .container .program-tile span h2 {
+        font-size: 15px;
+    }
+
+    #programs .container .program-tile .details p  {
+        font-size: 15px;
+    }
+}
+
 
 @media only screen and (max-width: 650px) {
     #programs .container {
@@ -184,5 +197,9 @@
     #programs .container .program-tile:hover{
         background-size: 500px;
         width: 70%;
+    }
+
+    #programs .container .program-tile span h2 {
+        font-size: 20px;
     }
 }
