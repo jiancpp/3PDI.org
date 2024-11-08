@@ -93,7 +93,7 @@
 
 #get-involved #donate .content .reasons span {
     position: absolute;
-    transform: translateX(-50px);
+    transform: translateX(-125%);
     font-size: 35px;
     color:transparent;
     transition: 0.4s;
@@ -146,6 +146,16 @@
 }
 
 #get-involved #donate:hover {
+    cursor: pointer;
+    background-color: rgba(0, 151, 178, 0.7);
+}
+
+#get-involved #donate .button:active{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#get-involved #donate:active {
     cursor: pointer;
     background-color: rgba(0, 151, 178, 0.7);
 }
@@ -207,6 +217,11 @@
     color: var(--orange);
 }
 
+#get-involved #partner .content .email:active {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: var(--orange);
+}
+
 #get-involved #partner .content .social {
     width: 100%;
     height: auto;
@@ -225,7 +240,17 @@
     color: var(--blue);
 }
 
+#get-involved #partner .content .social:active {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: var(--blue);
+}
+
 #get-involved #partner:hover {
+    cursor: pointer;
+    background-color: rgba(252, 191, 74, 0.9);
+}
+
+#get-involved #partner:active {
     cursor: pointer;
     background-color: rgba(252, 191, 74, 0.9);
 }
@@ -236,19 +261,39 @@
         font-size: 20px;
     }
 
+    #get-involved .header {
+        font-size: 40px;
+    }
+
+    #get-involved .subheader {
+        padding: 0 30px;
+    }
+
     #get-involved #donate {
         width: 80%;
         height: auto;
         padding: 20px 80px;
+        overflow-x: hidden;
     }
 
+  
     #get-involved #donate .content .reasons li {
-        font-size: 10px;
+        font-size: 15px;
         margin-left: 8vw;
     }
 
     #get-involved #donate .content .reasons li span {
+        font-size: 30px;
+        transform: translateX(-120%)
+    }
+
+    #get-involved #donate .content .donate-container .description {
+        font-size: 13px;
+    }
+    
+    #get-involved #donate #channel {
         font-size: 15px;
+        padding: 20px 30px;
     }
     
     #get-involved #partner {
@@ -257,7 +302,11 @@
         padding: 20px 80px;
     }
 
-    #get-involved .header, #get-involved .subheader {
+    #get-involved #partner .content .email {
+        padding: 20px 30px;
+    }
+
+    #get-involved .header, #get-involved .subheader, #get-involved #partner-content .partner-description h2 {
         text-align: center;
     }
 }
