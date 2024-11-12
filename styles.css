@@ -9,13 +9,22 @@
 
 @font-face {
     font-family: 'Batangas';
-    src: url("batangas-font-family-fontmirror/Batangas\ Bold\ 700.otf");
-    src: local('Batangas'), 
-        url("batangas-font-family-fontmirror/Batangas\ Bold\ 700.otf?#iefix") format(opentype);
-        url("batangas-font-family-fontmirror/Batangas\ Bold\ 700.woff2") format('woff2'), /* Super Modern Browsers */
-        url("batangas-font-family-fontmirror/Batangas\ Bold\ 700.woff") format('woff'), /* Modern Browsers */
-        url("batangas-font-family-fontmirror/Batangas\ Bold\ 700.ttf") format('truetype'), /* Safari, Android, iOS */
-        url("batangas-font-family-fontmirror/Batangas\ Bold\ 700.svg#Batangas") format('svg'); /* Legacy iOS */
+    src: url('Fonts/Batangas-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Open Sauce Black';
+    src: url('Fonts/OpenSauceSans-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Open Sauce Bold';
+    src: url('Fonts/OpenSauceSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Open Sauce Regular';
+    src: url('Fonts/OpenSauceSans-Regular.ttf') format('truetype');
 }
 
 * {
@@ -257,6 +266,9 @@
 
 @media only screen and (max-width: 650px) {
 
+    .banner {
+        background-size: cover;
+    }
     .banner .slogan {
         margin-right: 5%;
     }
