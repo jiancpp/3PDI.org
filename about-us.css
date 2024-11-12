@@ -194,7 +194,7 @@
         margin-top: 20px;
     }
 
-    #programs .container .program-tile:hover{
+    #programs .container .program-tile:focus{
         background-size: 500px;
         width: 70%;
     }
