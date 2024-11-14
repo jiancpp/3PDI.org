@@ -210,3 +210,17 @@
         font-size: 20px;
     }
 }
+
+@media (hover: none) {
+    .header,
+    .details h2 {
+        text-shadow: none;
+    }
+}
+
+@media (hover: hover) {
+    .header,
+    .details h2 {
+        text-shadow: 1px 2px 5px rgba(0, 0, 0, 30%);
+    }
+}
