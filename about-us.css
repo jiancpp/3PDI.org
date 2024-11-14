@@ -229,6 +229,6 @@
     #programs .container .program-tile span .details h2, 
     #programs h1,
     #programs h1 span {
-        text-shadow: none;
+        text-shadow: 2px 5px 10px rgba(0, 0, 0, 10%);
     }
 }
