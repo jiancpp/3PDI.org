@@ -224,3 +224,11 @@
         text-shadow: 1px 2px 5px rgba(0, 0, 0, 30%);
     }
 }
+
+@media (hover: none) {
+    #programs .container .program-tile span .details h2, 
+    #programs h1,
+    #programs h1 span {
+        text-shadow: none;
+    }
+}
