@@ -143,6 +143,10 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .banner .slogan {
@@ -265,9 +269,6 @@
 }
 
 @media only screen and (max-width: 650px) {
-    .banner {
-        background-size: 50%;
-    }
     .banner .slogan {
         margin-right: 5%;
     }
