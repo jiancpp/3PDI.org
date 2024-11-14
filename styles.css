@@ -230,7 +230,7 @@
     .banner {
         background-position: center;
         background-repeat: no-repeat;
-        background-size: 500px;
+        background-size: contain;
     }
    
     .banner .slogan {
