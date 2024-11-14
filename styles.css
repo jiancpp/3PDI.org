@@ -232,7 +232,11 @@
         background-repeat: no-repeat;
         background-size: 1020px;
         height: 100vh;
+         background-image: 
+        linear-gradient(rgba(0, 151, 178, 0.5), rgba(0, 151, 178, 0.5)),
+        url("images/banner-png.png");
     }
+   
     .banner .slogan {
         margin-right: 5%;
     }
