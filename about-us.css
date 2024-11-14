@@ -183,12 +183,6 @@
 
 
 @media only screen and (max-width: 1000px) and (hover: none){
-    #programs h1, #programs h1 span {
-    font-family: 'Batangas', sans-serif;
-    font-size: 60px;
-    color: var(--blue);
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 30%);
-    
     #programs .container {
         flex-direction: column;
     }
