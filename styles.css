@@ -227,11 +227,11 @@
 
 @media only screen and (max-width: 650px) {
 
-     .banner {
+    .banner {
+        background-position: center;
+        background-repeat: no-repeat;
         background-size: contain;
-           background-repeat: no-repeat;
-
-         height: 100vh;
+        height: 100vh;
     }
     .banner .slogan {
         margin-right: 5%;
