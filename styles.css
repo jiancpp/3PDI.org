@@ -9,22 +9,22 @@
 
 @font-face {
     font-family: 'Batangas';
-    src: url('Fonts/Batangas-Bold.otf') format('opentype');
+    src: url('fonts/Batangas-Bold.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Open Sauce Black';
-    src: url('Fonts/OpenSauceSans-Black.ttf') format('truetype');
+    src: url('fonts/OpenSauceSans-Black.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Open Sauce Bold';
-    src: url('Fonts/OpenSauceSans-Bold.ttf') format('truetype');
+    src: url('fonts/OpenSauceSans-Bold.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Open Sauce Regular';
-    src: url('Fonts/OpenSauceSans-Regular.ttf') format('truetype');
+    src: url('fonts/OpenSauceSans-Regular.ttf') format('truetype');
 }
 
 * {
@@ -228,9 +228,7 @@
 @media only screen and (max-width: 650px) {
 
      .banner {
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        height: 50vh;
     }
     .banner .slogan {
         margin-right: 5%;
