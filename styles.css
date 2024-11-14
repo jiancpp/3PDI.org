@@ -229,7 +229,7 @@
 
      .banner {
         background-size: contain;
-         background-position: center;
+         height: 100vh;
     }
     .banner .slogan {
         margin-right: 5%;
