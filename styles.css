@@ -9,22 +9,22 @@
 
 @font-face {
     font-family: 'Batangas';
-    src: url('fonts/Batangas-Bold.otf') format('opentype');
+    src: url('Fonts/Batangas-Bold.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Open Sauce Black';
-    src: url('fonts/OpenSauceSans-Black.ttf') format('truetype');
+    src: url('Fonts/OpenSauceSans-Black.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Open Sauce Bold';
-    src: url('fonts/OpenSauceSans-Bold.ttf') format('truetype');
+    src: url('Fonts/OpenSauceSans-Bold.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Open Sauce Regular';
-    src: url('fonts/OpenSauceSans-Regular.ttf') format('truetype');
+    src: url('Fonts/OpenSauceSans-Regular.ttf') format('truetype');
 }
 
 * {
@@ -143,10 +143,6 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .banner .slogan {
@@ -212,45 +208,6 @@
     color: var(--yellow);
 }
 
-.about-us {
-    padding: 20px;
-    background-color: var(--yellow2);
-    display: flex;
-    justify-content: space-between;
-    color: white;
-}
-
-.target-sectors {
-    text-align: center;
-}
-
-.icons{
-    display: flex;
-}
-
-.icons .icon {
-    margin: 10px;
-}
-
-#how-to-help {
-    text-align: center;
-    height: 30vh;
-    background-color: var(--orange2);
-}
-
-#how-to-help span {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#how-to-help span div {
-    margin: 10px;
-    padding: 20px 50px;
-    border-radius: 100px;
-    background: linear-gradient(var(--yellow), var(--orange));
-    font-size: 20px;
-}
 
 /* --------------------------------------------------------------------------- Media queries */ 
 
@@ -269,12 +226,12 @@
 }
 
 @media only screen and (max-width: 650px) {
-    .banner {
+
+     .banner {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
-    
     .banner .slogan {
         margin-right: 5%;
     }
@@ -295,16 +252,3 @@
         font-size: 15px;
     }
 }
-
-/* 
-    if (document.body.scrollTop > 80 ||
-        document.documentElement.scrollTop >80){
-        document.getElementById("navbar").style.padding = "0"; 
-        document.getElementById("navbar").style.background = "white"; 
-        document.getElementById("header-img").style.height = "5%";    
-    } else {
-        document.getElementById("navbar").style.padding = "30px 0";  
-        document.getElementById("navbar").style.background = "white"; 
-        document.getElementById("header-img").style.height = "10%";
-    }
-*/
