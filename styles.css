@@ -279,10 +279,14 @@
     }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 640px) {
 
     .banner {
         background-position: center;
+    }
+
+    .banner .slogan h1 {
+        font-size: 64px;
     }
 
     .navbar ul{
