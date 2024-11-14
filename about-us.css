@@ -211,10 +211,10 @@
     }
 }
 
-@media (hover: none) {
+@media (max-width: 650px) {
     .header,
     .details h2 {
-        text-shadow: none;
+        text-shadow: 1px 2px 5px rgba(0, 0, 0, 10%);
     }
 }
 
