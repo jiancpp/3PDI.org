@@ -64,6 +64,15 @@
     font-size: 15px;
 }
 
+.container-responsive {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border: 1px solid red;
+}
+
 .banner {
     width: 100%;
     height: 100vh;
@@ -212,6 +221,49 @@
 
 
 /* --------------------------------------------------------------------------- Media queries */ 
+
+
+/* XS */
+@media (min-width: 475px) { 
+    .container-responsive {
+        max-width: 475px;
+    }
+}
+
+/* S */
+@media (min-width: 640px) { 
+    .container-responsive {
+        max-width: 640px;
+    }
+}
+
+/* MD */
+@media (min-width: 768px) { 
+    .container-responsive {
+        max-width: 768px;
+    }
+}
+
+/* L */
+@media (min-width: 1024px) { 
+    .container-responsive {
+        max-width: 1024px;
+    }
+}
+
+/* XL */
+@media (min-width: 1280px) { 
+    .container-responsive {
+        max-width: 1280px;
+    }
+}
+
+/* 2XL */
+@media (min-width: 1536px) { 
+    .container-responsive {
+        max-width: 1536px;
+    }
+}
 
 @media only screen and (max-width: 1000px){
     /* for minimized screens */
