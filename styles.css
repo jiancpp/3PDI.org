@@ -72,7 +72,6 @@
     margin-right: auto;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    border: 1px solid red;
 }
 
 .banner {
@@ -231,9 +230,16 @@
 }
 
 /* S */
+
 @media (min-width: 640px) { 
     .container-responsive {
         max-width: 640px;
+    }
+    .banner {
+        background-size: auto 100%;
+    }
+    .banner {
+        background-size: auto 100%;
     }
 }
 
@@ -241,6 +247,9 @@
 @media (min-width: 768px) { 
     .container-responsive {
         max-width: 768px;
+    }
+    .banner {
+        background-size: auto 100%;
     }
 }
 
