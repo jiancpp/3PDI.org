@@ -228,7 +228,7 @@
         max-width: 475px;
     }
     .banner {
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
     }
 }
@@ -240,7 +240,7 @@
         max-width: 640px;
     }
     .banner {
-        background-size: contain;
+        background-size: cover;
          background-repeat: no-repeat;
     }
 }
@@ -251,7 +251,7 @@
         max-width: 768px;
     }
     .banner {
-       background-size: contain;
+       background-size: cover;
         background-repeat: no-repeat;
     }
 }
