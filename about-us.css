@@ -68,7 +68,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 150px;
-    padding: 10px;
+    padding: 20px 10px;
     border-bottom-left-radius: inherit;
     border-bottom-right-radius: inherit;
     background-color: var(--blue);
