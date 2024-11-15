@@ -227,6 +227,10 @@
     .container-responsive {
         max-width: 475px;
     }
+    .banner {
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+    }
 }
 
 /* S */
@@ -237,9 +241,7 @@
     }
     .banner {
         background-size: auto 100%;
-    }
-    .banner {
-        background-size: auto 100%;
+         background-repeat: no-repeat;
     }
 }
 
