@@ -99,7 +99,7 @@
     content: "3PDI provides access to skills development training and available entrepreneurship program by the government that aims to promote self-sufficiency among the youth, the women, and the urban poor by honing their skills."
 }
 
-@media (hover: hover) {
+@media only screen and (max-width: 1000px){
     #programs .details p{
         visibility: hidden;
         position: relative;
