@@ -68,7 +68,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 150px;
-    padding: 20px 10px;
+    padding: 10px;
     border-bottom-left-radius: inherit;
     border-bottom-right-radius: inherit;
     background-color: var(--blue);
@@ -82,14 +82,20 @@
 }
 
 #programs .container .one span .program-one p:after {
+    padding-top: 20px;
+    font-family: 'Open Sauce Recular', sans-serif;
     content: "As they aim to practice servant leadership and promote participatory governance, 3PDI organized this project to build capacity of youth and students—helping them foster necessary skills such as policymaking processes and advocacy planning";
 }
 
 #programs .container .two span .program-two p:after {
+    padding-top: 20px;
+    font-family: 'Open Sauce Recular', sans-serif;
     content: "With a mission to uplift the poor and help them achieve self-sufficiency, 3PDI leads in organizing and assisting the urban poor to access the Community Mortgage Program for Social Housing Projects organized by the government. This is to address the number of homeless persons and informal settlers in Bulacan";
 }
 
 #programs .container .three span .program-three p:after {
+    padding-top: 20px;
+    font-family: 'Open Sauce Recular', sans-serif;
     content: "3PDI provides access to skills development training and available entrepreneurship program by the government that aims to promote self-sufficiency among the youth, the women, and the urban poor by honing their skills."
 }
 
