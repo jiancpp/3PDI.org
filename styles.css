@@ -73,13 +73,6 @@
     padding-left: 0.5rem;
     padding-right: 0.5rem;
 }
-
-.banner {
-    width: 100%;
-    height: 100vh;
-    background-attachment: fixed;
-}
-
 .navbar {
     width: 100%;
     padding: 30px 0;
@@ -145,6 +138,9 @@
 }
 
 .banner {
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
     margin: 0;
     height: 100vh;
     background-image: 
@@ -227,10 +223,6 @@
     .container-responsive {
         max-width: 475px;
     }
-    .banner {
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
 }
 
 /* S */
@@ -239,20 +231,12 @@
     .container-responsive {
         max-width: 640px;
     }
-    .banner {
-        background-size: cover;
-         background-repeat: no-repeat;
-    }
 }
 
 /* MD */
 @media (min-width: 768px) { 
     .container-responsive {
         max-width: 768px;
-    }
-    .banner {
-       background-size: cover;
-        background-repeat: no-repeat;
     }
 }
 
@@ -261,10 +245,6 @@
     .container-responsive {
         max-width: 1024px;
     }
-    .banner {
-       background-size: cover;
-        background-repeat: no-repeat;
-    }
 }
 
 /* XL */
@@ -272,20 +252,12 @@
     .container-responsive {
         max-width: 1280px;
     }
-    .banner {
-       background-size: cover;
-        background-repeat: no-repeat;
-    }
 }
 
 /* 2XL */
 @media (min-width: 1536px) { 
     .container-responsive {
         max-width: 1536px;
-    }
-    .banner {
-       background-size: cover;
-        background-repeat: no-repeat;
     }
 }
 
