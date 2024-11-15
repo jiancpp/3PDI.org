@@ -82,15 +82,15 @@
 }
 
 #programs .container .one span .program-one p:after {
-    content: "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)";
+    content: "As they aim to practice servant leadership and promote participatory governance, 3PDI organized this project to build capacity of youth and students—helping them foster necessary skills such as policymaking processes and advocacy planning";
 }
 
 #programs .container .two span .program-two p:after {
-    content: "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)";
+    content: "With a mission to uplift the poor and help them achieve self-sufficiency, 3PDI leads in organizing and assisting the urban poor to access the Community Mortgage Program for Social Housing Projects organized by the government. This is to address the number of homeless persons and informal settlers in Bulacan";
 }
 
 #programs .container .three span .program-three p:after {
-    content: "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)";
+    content: "3PDI provides access to skills development training and available entrepreneurship program by the government that aims to promote self-sufficiency among the youth, the women, and the urban poor by honing their skills."
 }
 
 @media (hover: hover) {
