@@ -146,7 +146,7 @@
     background-image: 
         linear-gradient(rgba(0, 151, 178, 0.5), rgba(0, 151, 178, 0.5)),
         url("images/banner-png.png");
-        background-size: 1800px;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     display: flex;
@@ -300,8 +300,12 @@
     }
 }
 
-@media (hover: none) {
+@media (hover: none) and (max-width: 640px) {
     .header {
     font-family: 'Batangas', sans-serif;
     text-shadow: 2px 5px 10px rgba(0, 0, 0, 10%);
+    .banner {
+        background-position: center;
+        background-size: 800px;
+    }
 }
