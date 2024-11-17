@@ -95,7 +95,7 @@
 
 .logo {
     display: flex;
-    transform: translate(-5%, 15%);
+    transform: translate(-2%, 15%);
 }
 
 .navbar div h1 {
@@ -153,6 +153,8 @@
     align-items: center;
     justify-content: flex-end;
 }
+
+
 
 .banner .slogan {
     position: relative;
@@ -300,10 +302,20 @@
     }
 }
 
+@media (hover: none) {
+    .banner {
+        background-image: 
+        linear-gradient(rgba(0, 151, 178, 0.5), rgba(0, 151, 178, 0.5)),
+        url("images/banner-mobile.png");
+    }
+}
+
 @media (hover: none) and (max-width: 640px) {
     .header {
     font-family: 'Batangas', sans-serif;
     text-shadow: 2px 5px 10px rgba(0, 0, 0, 10%);
+    }
+
     .banner {
         background-position: center;
         background-size: 800px;
