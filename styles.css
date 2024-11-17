@@ -310,14 +310,17 @@
     }
 }
 
-@media (hover: none) and (max-width: 640px) {
+@media (max-width: 640px) {
+    .banner {
+        background-image: 
+        linear-gradient(rgba(0, 151, 178, 0.5), rgba(0, 151, 178, 0.5)),
+        url("images/banner-mobile.png");
+        background-position: center;
+        background-size: contain;
+    }
+    
     .header {
     font-family: 'Batangas', sans-serif;
     text-shadow: 2px 5px 10px rgba(0, 0, 0, 10%);
-    }
-
-    .banner {
-        background-position: center;
-        background-size: 800px;
     }
 }
